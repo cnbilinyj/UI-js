@@ -1,6 +1,6 @@
 # UI-js
 
-[English Version](#UI-js2)
+[English Version](#ui-js-1)
 
 这是一个可以提供各种UI的JavaScript类的库
 
