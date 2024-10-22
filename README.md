@@ -13,4 +13,4 @@ This is a library of JavaScript classes that can provide various UIS.
 
 There are currently the following UI classes:
 
-- [Digital display tube (digital tube)](digital-tube/README.md)
+- [Digital display tube (digital tube)](digital-tube/README-en.md)
