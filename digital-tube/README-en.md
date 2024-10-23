@@ -111,12 +111,12 @@ Returns the current object.
 
 # Developer Information
 
-Author: Nong Yao Jun
+Author: 农药君 | bilinyj | cnbilinyj
 
-CSDN: Nong Yao Jun: [https://blog.csdn.net/qq_69128903](https://blog.csdn.net/qq_69128903)
+CSDN: 农药君: [https://blog.csdn.net/qq_69128903](https://blog.csdn.net/qq_69128903)
 
 WebCat: bilinyj(14739): [http://space.webcat.top/page/my_source.html?uid=14739](http://space.webcat.top/page/my_source.html?uid=14739)
 
 GitHub: cnbilinyj: [https://www.github.com/cnbilinyj](https://www.github.com/cnbilinyj)
 
-Code Link: [https://gist.github.com/cnbilinyj/855b978596641deaf61c27d714151465](https://gist.github.com/cnbilinyj/855b978596641deaf61c27d714151465)
+Code Link: [https://github.com/cnbilinyj/UI-js/blob/main/digital-tube/digital-tube.js](https://github.com/cnbilinyj/UI-js/blob/main/digital-tube/digital-tube.js)
