@@ -15,4 +15,4 @@ This is a library of JavaScript classes or functions that can provide various UI
 There are currently the following UI classes and functions:
 
 - [Digital display tube (digital tube)](digital-tube/README-en.md)
-- [EAN-13 barcode builder](ean-13-barcode-builder/README-en.md)
+- [EAN-13 Barcode Generation](ean-13-barcode-generation/README-en.md)

@@ -14,7 +14,7 @@
 
 **_返回值_**：
 
-	类型：`number`(0 \~ 10)
+	类型：`number`(0 \~ 9)
 
 	描述：从0到9的校验位计算结果
 
@@ -62,4 +62,4 @@ WebCat：bilinyj(14739)：[http://space.webcat.top/page/my_source.html?uid=14739
 
 GitHub：cnbilinyj：[https://www.github.com/cnbilinyj](https://www.github.com/cnbilinyj)
 
-代码链接：[https://github.com/cnbilinyj/UI-js/blob/main/ean-13-barcode-builder/ean-13-barcode-builder.js](https://github.com/cnbilinyj/UI-js/blob/main/ean-13-barcode-builder/ean-13-barcode-builder.js)
+代码链接：[https://github.com/cnbilinyj/UI-js/blob/main/ean-13-barcode-generation/ean-13-barcode-generation.js](https://github.com/cnbilinyj/UI-js/blob/main/ean-13-barcode-generation/ean-13-barcode-generation.js)
