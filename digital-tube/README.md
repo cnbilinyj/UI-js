@@ -305,4 +305,4 @@ WebCat：bilinyj(14739)：[http://space.webcat.top/page/my_source.html?uid=14739
 
 GitHub：cnbilinyj：[https://www.github.com/cnbilinyj](https://www.github.com/cnbilinyj)
 
-代码链接：[https://github.com/cnbilinyj/UI-js/blob/main/digital-tube/digital-tube.js](https://gist.github.com/cnbilinyj/855b978596641deaf61c27d714151465)
+代码链接：[https://github.com/cnbilinyj/UI-js/blob/main/digital-tube/digital-tube.js](https://github.com/cnbilinyj/UI-js/blob/main/digital-tube/digital-tube.js)
