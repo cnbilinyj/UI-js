@@ -21,7 +21,7 @@
 			position: relative;
 			margin-top: 20px;
 		}
-		input[type="number"] {
+		input {
 			padding: 10px;
 			margin-bottom: 10px;
 			border: 2px solid #ddd;
@@ -64,7 +64,7 @@
 	</style>
 </head>
 <body>
-	<input type="number" id="ean_num" placeholder="输入12位或13位数字"><br>
+	<input type="text" id="ean_num" pattern="\d" placeholder="输入12位或13位数字"><br>
 	<button id="generate_ean_btn">生成EAN-13条码</button>
 	<hr>
 	<a href="#" id="db" download="barcode.png"><canvas id="barcode"></canvas></a>
@@ -88,6 +88,18 @@
 					break;
 				default:
 					alert("不要输入长度不为12或13的值，12位由程序自动计算校验位，第13位是手动输入的校验位")
+			}
+		});
+
+		document.querySelector("#ean_num").addEventListener("input", (event) => {
+			let input = event.target;
+			let allowedCharacters = /[0-9]/; // 允许的字符：数字
+			let start = input.selectionStart;
+			let end = input.selectionEnd;
+			let value = input.value.replace(/[^0-9]/g, '');
+			if (input.value != value) {
+				input.value = value;
+				input.setSelectionRange(start - 1, end - 1);
 			}
 		});
 
