@@ -93,13 +93,17 @@
 
 		document.querySelector("#ean_num").addEventListener("input", (event) => {
 			let input = event.target;
-			let allowedCharacters = /[0-9]/; // 允许的字符：数字
 			let start = input.selectionStart;
 			let end = input.selectionEnd;
 			let value = input.value.replace(/[^0-9]/g, '');
-			if (input.value != value) {
-				input.value = value;
+			let overlength = (value.length > 13);
+			let end_cursor = (start == value.length - 1)
+			let forbidden_character = input.value != value;
+			input.value = value.slice(0, 13);
+			if (!overlength && end_cursor && forbidden_character) {
 				input.setSelectionRange(start - 1, end - 1);
+			} else {
+				input.setSelectionRange(start, end);
 			}
 		});
 
