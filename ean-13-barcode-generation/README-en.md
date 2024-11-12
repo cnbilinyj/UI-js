@@ -1,6 +1,6 @@
 # EAN-13 Barcode Generation
 
-[View demo page](demo0.html)
+[View demo page](demo01.html)
 
 ## Method: calculate_barcode_parity_bit
 
