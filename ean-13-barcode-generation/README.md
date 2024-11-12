@@ -1,6 +1,6 @@
 # EAN-13条码生成
 
-[查看demo页面](demo01.html)
+[查看demo页面](demo-01.html)
 
 ## 方法：calculate_barcode_parity_bit
 
