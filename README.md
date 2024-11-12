@@ -7,7 +7,7 @@
 当前支持如下UI类/功能：
 
 - [数显管](digital-tube/README.md)
-- [EAN-13条码生成器](ean-13-barcode-builder/README.md)
+- [EAN-13条码生成器](ean-13-barcode-generation/README.md)
 
 # UI-js
 This is a library of JavaScript classes or functions that can provide various UIS.
