@@ -104,7 +104,7 @@ class DigitalTube {
 	}
 
 	#isElement(element) {
-		return element instanceof Element || element instanceof HTMLDocument;
+		return element instanceof Element || element instanceof HTMLElement || element instanceof SVGElement;
 	}
 
 	// 设置数码管的显示数据（0-255，用其二进制下的每一位分别表示8段的状态）
